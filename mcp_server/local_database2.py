@@ -7,7 +7,7 @@ from camelot import io as camelot_io
 mcp = FastMCP("PDF Folder Server")
 
 # Set your PDF folder path
-PDF_FOLDER = "/Users/utkarsh_verma/Codes/VS_CODE/The_Research_Drift_Engine/papers"
+PDF_FOLDER = "/papers"
 
 @mcp.tool()
 def extract_pdf_from_folder(filename: str) -> str:
